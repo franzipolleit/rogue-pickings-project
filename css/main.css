@@ -1,0 +1,135 @@
+/*******BASE STYLES*****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/*********GRID********/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 374px;
+  height: 210px;
+  padding-top: 25px;
+}
+
+/***********HEADER SECTION**********/
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 20px 0px;
+}
+
+nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #77a466;
+  padding-left: 25px;
+}
+
+/************TOP SECTION**********/
+
+#top img {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+#top h2 {
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+#top p{
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/*********BOTTOM SECTION*********/
+
+#bottom h2{
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#bottom ul li{
+  font-size: 16px;
+  line-height: 30px;
+  color: #77a466;
+  text-transform: capitalize;
+}
+
+#bottom ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#bottom p{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#bottom p#contact {
+  line-height: 25px;
+}
+
+#bottom #specials{
+  border-top: 1px solid #dedbdc;
+}
+
+#bottom #reviews{
+  border-top: 1px solid #dedbdc;
+  border-left:1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#bottom #address {
+  border-top: 1px solid #dedbdc;
+  padding-left: 25px;
+}
+
+/************FOOTER SECTION*******/
+
+footer {
+  text-align: center;
+  border-top: 1px solid #dedbdc;
+}
+
+footer h3{
+  font-size: 16px;
+  line-height: 23px;
+}
+
+footer h3 span{
+  color: #77a466;
+  font-family: 'Galada', cursive;
+}
